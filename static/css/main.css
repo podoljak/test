@@ -26,3 +26,16 @@ height: 30px;
 line-height: 30px;
 color: #555555;
 }
+
+#mounts-selector {
+text-align: center;
+margin: 0;
+width: 100%;
+}
+
+#visit-table {
+text-align: center;
+text: 5px;
+margin: 0;
+width: 750px;
+}
