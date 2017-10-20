@@ -34,8 +34,7 @@ width: 100%;
 }
 
 #visit-table {
-text-align: center;
-text: 5px;
 margin: 0;
-width: 750px;
+width: 100%;
+padding-bottom: 20px;
 }
