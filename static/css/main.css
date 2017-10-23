@@ -16,10 +16,11 @@ padding-top: 10px;
 /* Groups Selector */
 #group-selector {
 margin-top: 30px;
+
 }
 #group-selector select {
 margin: 0;
-width: 85%;
+width: 100%;
 background-color: #ffffff;
 border: 1px solid #cccccc;
 height: 30px;
@@ -34,7 +35,10 @@ width: 100%;
 }
 
 #visit-table {
-margin: 0;
+text-align: center;
 width: 100%;
-padding-bottom: 20px;
+padding: 5px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 0px;
 }
