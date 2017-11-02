@@ -21,39 +21,39 @@
     <div class="container">
         <div class="row" id="header">
             <div class="col-xs-8">
-                <h1>Форма редагування Студента</h1>
+                <h2 id="bold">Форма редагування Студента</h2>
             </div>
         </div>
         <div class="row" id="fields">
             <div class="col-xs-4" align="right">
-                <h4>Ім’я</h4>
+                <h4>Ім’я*</h4>
             </div>
             <div class="col-xs-8" align="left">
-                <h4><input tupe=text size=20 value="Ім’я" maxlength="20"></h4>
+                <h4><input tupe=text size=20 value="" maxlength="20"></h4>
             </div>
             <div class="col-xs-4" align='right'>
                 <h4>По-батькові</h4>
             </div>
             <div class="col-xs-8" align="left">
-                <h4><input tupe=text size=20 value="По-батькові" maxlength="20"></h4>
+                <h4><input tupe=text size=20 value="" maxlength="20"></h4>
             </div>
             <div class="col-xs-4" align="right">
-                <h4>Прізвище</h4>
+                <h4>Прізвище*</h4>
             </div>
             <div class="col-xs-8" align="left">
-                <h4><input tupe=text size=20 value="Прізвище" maxlength="20"></h4>
+                <h4><input tupe=text size=20 value="" maxlength="20"></h4>
             </div>
             <div class="col-xs-4" align="right">
-                <h4>№ Білету</h4>
+                <h4>№ Білету*</h4>
             </div>
             <div class="col-xs-8" align="left">
-                <h4><input tupe=text size=20 value="№ Білету" maxlength="20"></h4>
+                <h4><input tupe=text size=20 value="" maxlength="20"></h4>
             </div>
             <div class="col-xs-4" align="right">
                 <h4>Дата народження</h4>
             </div>
             <div class="col-xs-8" align="left">
-                <h4><input tupe=text size=20 value="Дата народження" maxlength="20"></h4>
+                <h4><input tupe=text size=20 value="" maxlength="20"></h4>
             </div>
             <div class="col-xs-4" align="right">
                 <h4>Фото</h4>
@@ -68,28 +68,31 @@
                 <h4>Змінити: <button type="button" class="btn btn-default" id="roundbutton">Choose file</button> No file choosen</h4>
             </div>
             <div class="col-xs-4" align="right">
-                <h4>Група</h4>
+                <h4>Група*</h4>
             </div>
             <div class="col-xs-8" align="left">
-                <h4><select>
+                <h4>
+                    <select>
                     <option value="">МтМ-21</option>
                     <option value="">МтМ-22</option>
                     <option value="">МтМ-23</option>
-                </select></h4>
+                    </select>
+                </h4>
             </div>
             <div class="col-xs-4" align="right">
                 <h4>Додаткові нотатки</h4>
             </div>
             <div class="col-xs-8" align="left">
-                <h4><textarea size=20 value="Додаткові нотатки" maxlength="120">test d</textarea></h4>
+                <h4><textarea size="20" value="Додаткові нотатки">Тест d</textarea></h4>
             </div>
         </div>
-
-    </div>
-        <div class="row" id="footer">
-            <div class="col-xs-12">
-                &copy; 2014 Сервіс Обліку Студентів
-            </div>
+        <div class="col-xs-12" id="bottom-field">
+                <div class="col-xs-4" align="right">
+                    <a class="btn btn-primary" href="#"><h4>Зберегти</h4></a>
+                </div>
+                <div class="col-xs-8" align="left">
+                    <a class="btn" href="#"><h4>Скасувати</h4></a>
+                </div>
         </div>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
